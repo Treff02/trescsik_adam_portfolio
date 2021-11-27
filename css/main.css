@@ -1,0 +1,154 @@
+body{
+	background-color: aliceblue;
+	height: 100%;
+	margin: 0px 10pt;
+	padding:0px;
+}
+
+a:visited{
+	color: purple;
+}
+
+a:hover{
+	color: red;
+}
+
+.Fejléc{
+	background-color: aliceblue;
+	font-family: Times New Roman;
+	font-size: 250%;
+	padding:0;
+	color: darkcyan;
+	max-width: 100%;
+	text-align: center;
+}
+
+.NavPanel {
+	position: sticky;
+	top: 0px;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	overflow: hidden;
+	background-color: aliceblue;
+	font-family: Times New Roman;
+	font-size: 150%;
+	color: white;
+	text-align: center;
+}
+
+.Panel{
+	float: left;
+	width: 25%;;
+}
+
+.aktivhiv{
+	color: darkcyan;
+	padding: 5% 0%;
+	max-width: 100%;
+	background-color: white;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	border: 1px solid darkcyan;
+}
+
+.aktivhiv:hover{
+	color:darkcyan;
+}
+
+.aktivhiv:visited{
+	color:darkcyan ;
+}
+
+.oldalhiv{
+	color: white;
+	padding: 5% 0%;
+	max-width: 100%;
+	text-align: center;
+	display: block;
+	background-color: darkcyan;
+	text-decoration: none;
+	border-bottom: 1px solid darkcyan;
+	border-top: 1px solid darkcyan;
+	border-right: 1px solid white;
+	border-left: 1px solid white;
+}
+
+.oldalhiv:hover {
+	background-color: darkgrey;
+	color: white;
+}
+
+.oldalhiv:visited{
+	color: white;
+}
+
+main{
+	width: 100%;
+	margin: 0 0 0 10pt;
+	border-spacing: 0;
+	padding: 0;
+	padding-top: 10pt;
+	font-size: 25pt;
+	margin-left: 0
+	}
+
+h2{
+	margin: 10pt;
+}
+
+.main1{
+	list-style-type: none;
+	overflow: hidden;
+	margin: 0;
+}
+
+.main2{
+	float: left;
+	max-width: 24%;
+	margin: 0;
+	padding: 0;
+	padding-right: 1%;	
+}
+
+.main3{
+	float: left;
+	max-width: 74%;
+	margin: 0;
+	padding: 0;
+}
+
+.main4{
+	float: right;
+	max-width: 20%;
+	padding: 0;
+	padding-right: 1%;
+	margin: 0;	
+}
+.kepek1{
+	float: left;
+	max-width:25%;
+	padding: 0 1%;
+}
+.kepek2{
+	max-width: 100%;
+	height: 177px;
+}
+
+.Én{
+	max-width: 100%;
+	padding: 0;
+}
+
+.Lábjegyzék{
+	font-size: 18pt;
+	margin-left: 12pt;
+}
+
+#leirat{
+text-align: center;
+font-size: 24pt;
+width: 60%;
+margin: auto;
+}
